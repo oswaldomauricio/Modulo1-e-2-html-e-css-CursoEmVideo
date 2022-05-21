@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3CDB83;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: linear-gradient(180deg, #3CDB83, #1A5C38 80% );
+}
+
+header .cabecalho{
+    text-align: center;
+}
+header .cabecalho h1{
+    color: white;
+    padding: 20px 0 20px;
+}
+header .cabecalho p{
+    margin: 0 auto;
+    color: white;
+    padding: 0 0 20px 0;
+    width: 400px;
+    
+}
+
+header .cabecalho__menu{
+    display: flex;
+    margin: 0 10px;
+    
+}
+header .cabecalho__menu nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 10px;
+}
+header .cabecalho__menu nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main{
+    margin-bottom: 20px;
+    
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 70%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.241);
+}
+
+.secaoHistoriaDoMascote h1{
+    padding: 20px 10px;
+    color: #1A5C38;
+    letter-spacing: 4px;
+    font-family: 'Titan One', cursive;
+}
+.secaoHistoriaDoMascote h2{
+    padding: 0 10px;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #bbfad7, #fff);
+    font-family: 'Titan One', cursive;
+    letter-spacing: 4px;
+}
+.secaoHistoriaDoMascote p{
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: justify;
+    text-indent: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.secaoHistoriaDoMascote img{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.surgeUmNoveMascote__video{
+    background-color: #1A5C38;
+    height: 500px;  
+    width: 100%;  
+}
+.surgeUmNoveMascote__video iframe{
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    width: 100%;
+    height: 500px;
+}
+
+.container--2{
+    width: 100%;  
+    height: auto;
+    margin: 0 auto;
+}
+.querAprederMais{
+    margin: 10px;
+    padding: 0px;
+    background-color: #bbfad7;
+    border-radius: 10px;
+}
+
+.querAprenderMais__titulo h2{
+    background-color: #2FA866;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.querAprenderMais__paragrafo p{
+    text-indent: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+.querAprenderMais__paragrafo p a{
+    text-decoration: none;
+    color: #3CDB83;
+}
+
+.querAprederMais ul{
+    padding: 5px 30px;
+    font-weight: 700;
+    margin: 0 auto 0 0;
+    list-style-type: "✓  ";
+    list-style-position: inside;
+}
+.querAprenderMais__lista{
+    list-style-type: square;
+    display: flex;
+}
+
+.querAprenderMais p{
+    font-weight: 700;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.danDroid-mobile{
+    display: none;
+}
+.irina-mobile{
+    display: none;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1145px){
+    
+    .danDroid-mobile{
+        display: block;
+    }
+    .irina-mobile{
+        display: flex;
+    }
+    #danDroid-desktop{
+        display: none;
+    }
+    .irina-desktop{
+        display: none;
+    }
+
+}
